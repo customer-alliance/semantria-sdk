@@ -1,0 +1,13 @@
+{
+  "name": "ca/semantria-sdk",
+  "description": "Official sdk for semantria api",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Semantria\\": "PHP/semantria/"
+    }
+  }
+}
