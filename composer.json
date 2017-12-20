@@ -6,8 +6,8 @@
   "minimum-stability": "dev",
   "require": {},
   "autoload": {
-    "psr-4": {
-      "Semantria\\": "PHP/semantria/"
-    }
+    "classmap": [
+      "PHP/semantria"
+    ]
   }
 }
