@@ -150,7 +150,7 @@ class AuthRequest
 		
 		for ($i = 0; $i < strlen($md5); $i += 2)
 		{
-			$bin .= chr(hexdec($md5[$i+]) + hexdec($md5[$i]) * 16);
+			$bin .= chr(hexdec($md5[$i+1]) + hexdec($md5[$i]) * 16);
 		}
 		
 		$md5sig = $this->urlencode(base64_encode($bin)); 
