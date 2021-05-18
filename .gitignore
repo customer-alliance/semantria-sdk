@@ -32,3 +32,6 @@ __pycache__
 *~
 TAGS
 *.bak
+
+/vendor/
+composer.lock

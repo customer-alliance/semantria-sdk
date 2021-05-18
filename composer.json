@@ -1,0 +1,8 @@
+{
+    "name": "ca/semantria-sdk",
+    "description": "our own fork of the Semantria SDK",
+    "type": "library",
+    "require": {
+        "php": "^7.4"
+    }
+}
